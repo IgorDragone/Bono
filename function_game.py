@@ -60,6 +60,11 @@ def play_game():
     screen = turtle.Screen()
     screen.title("Geometric Fun(ction)")
 
+    # Creamos una tortuga
+    turtle.shape("turtle")
+    turtle.color("green")
+    turtle.speed(1)
+
 
     #Menú de inicio
     print("Bienvenido a Geometric Fun(ction)")
@@ -103,8 +108,7 @@ def play_game():
 
     # Salir del juego
     print("Gracias por jugar a Geometric Fun(ction)")
-    turtle.done()
-    screen.exitonclick()
+    
 
 # Start the game
 play_game()
